@@ -1,0 +1,7 @@
+#!/usr/bin/env rc
+
+flag e +
+
+PHP_CLI_SERVER_WORKERS=4
+
+php -S localhost:7070 index.php
