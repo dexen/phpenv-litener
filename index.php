@@ -1,3 +1,3 @@
 <?php
 
-require './litener.php';
+require './adminer/litener.php';

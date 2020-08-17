@@ -8,4 +8,4 @@ if (php_sapi_name() === 'cli-server') {
 	if (!is_dir(sprintf('%s/.local/shared/php-session', getenv('HOME'))))
 	mkdir(sprintf('%s/.local/shared/php-session', getenv('HOME')), 0700, true); }
 
-require './adminer-sqlite-password-handling.php';
+require './adminer/adminer-sqlite-password-handling.php';
